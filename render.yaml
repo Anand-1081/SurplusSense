@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: surplussense
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/donors
